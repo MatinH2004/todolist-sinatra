@@ -9,8 +9,11 @@ Welcome to the ToDo App Tracker! This simple yet powerful application helps you 
 ## Features
 
 **User-friendly Interface**: The application provides an intuitive and easy-to-use interface for managing your tasks.
+
 **Task Creation and Deletion**: Easily add new tasks to your to-do list and delete tasks that are completed or no longer needed.
+
 **Task Status Updates**: Mark tasks as completed or update their status to keep track of your progress.
+
 **Responsive Design**: The app is designed to work seamlessly on various devices, allowing you to manage your tasks on the go.
 
 ## Getting Started
