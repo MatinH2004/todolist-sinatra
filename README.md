@@ -1,4 +1,4 @@
-# ToDo App Tracker
+# Todo Tracker App
 
 [Check it out here](https://todolist-sinatra-b00319384f84.herokuapp.com/lists)
 
