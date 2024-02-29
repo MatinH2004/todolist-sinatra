@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Welcome to the ToDo App Tracker! This simple yet powerful application helps you organize your tasks and manage your to-do list efficiently. It is built using Ruby, Sinatra, jQuery, JavaScript, PostgreSQL, and ERB templates.
+Welcome to the Todolist Tracker! This simple yet powerful application helps you organize your tasks and manage your to-do list efficiently. It is built using Ruby, Sinatra, jQuery, JavaScript, PostgreSQL, and ERB templates.
 
 ## Features
 
