@@ -203,3 +203,7 @@ post "/lists/:list_id/complete_all" do
   session[:success] = "The todo list has been updated."
   redirect "/lists/#{@list_id}"
 end
+
+after do
+  @storage.disconnect
+end
