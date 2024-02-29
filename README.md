@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Welcome to the ToDo App Tracker! This simple yet powerful application helps you organize your tasks and manage your to-do list efficiently. It is built using Ruby, Sinatra, jQuery, JavaScript, and ERB.
+Welcome to the ToDo App Tracker! This simple yet powerful application helps you organize your tasks and manage your to-do list efficiently. It is built using Ruby, Sinatra, jQuery, JavaScript, PostgreSQL, and ERB templates.
 
 ## Features
 
@@ -21,27 +21,32 @@ Welcome to the ToDo App Tracker! This simple yet powerful application helps you 
 ### Prerequisites
 Make sure you have the following installed on your machine:
 
-Ruby
-Sinatra gem
-Bundler gem
-jQuery
-Web browser (Google Chrome, Mozilla Firefox, Safari, etc.)
+- Ruby
+- Sinatra gem
+- Bundler gem
+- PostgreSQL gem
+- jQuery
+- Web browser (Google Chrome, Mozilla Firefox, Safari, etc.)
+
+See `Gemfile` for all of the project's dependancies.
 
 ### Installation
 Clone the repository:
 ```bash
-git clone https://github.com/your-username/todo-app.git
+git clone https://github.com/your-username/todolist-sinatra.git
 ```
 
 Navigate to the project directory:
 ```bash
-cd todo-app
+cd todolist
 ```
 
 Install dependencies:
 ```bash
 bundle install
 ```
+
+Make sure you have PostgreSQL installed, and set up your database schema using the `schema.sql` file.
 
 ### Usage
 Start the application:
