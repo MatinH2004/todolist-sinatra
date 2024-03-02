@@ -21,7 +21,8 @@ helpers do
   end
 
   def list_complete?(list)
-    todos_count(list) > 0 && todos_remaining_count(list) == 0
+    # undefined method '>' for nil:class => rescue false
+    list[:todos_count] > 0 && list[:todos_remaining_count] == 0 rescue false
   end
 
   def list_class(list)
